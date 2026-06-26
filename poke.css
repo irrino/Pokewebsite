@@ -83,6 +83,10 @@ nav button{
 }
 
 .content{
+    background-image: url("content_back.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
     width: 98.5vw;
     height: 800px;
     background-color: aquamarine;
@@ -106,7 +110,29 @@ nav button{
 }
 
 @media (max-width: 768px) {
+
+    main .info{
+
+        width: 97.5vw;
+        height: 280px;
+        background-color: aqua;
+        font-size: 1.2rem;
+        text-indent: 10px;
+        padding: 10px;
+    }
+    
+    nav{
+        display: flex;
+        gap: 5px;
+    
+    }
+
+
+
+
+
 .content{
+    background-image: url("content_back.jpeg");
     width: 98.5vw;
     height: 800px;
     background-color: aquamarine;

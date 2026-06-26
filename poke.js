@@ -2,6 +2,9 @@
 import * as Data from "./collection.js";
 
 
+let content_back = document.getElementsByClassName("content");
+
+
 
 function clearButtonClass(){
     let objects = document.getElementsByClassName("active");
@@ -9,6 +12,8 @@ function clearButtonClass(){
     while(objects.length > 0){
         objects[0].classList.remove("active");
     }
+    content_back[0].style.backgroundImage = "none";
+    
 }
 
 
