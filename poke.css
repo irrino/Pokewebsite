@@ -89,14 +89,14 @@ nav button{
     background-size:cover;
     width: 98.5vw;
     height: 800px;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     margin-top: 10px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-auto-rows: 350px;
     column-gap: 20px;
     overflow-y: auto;
-    row-gap: 50px;
+    row-gap: 60px;
     
     
 
@@ -135,14 +135,14 @@ nav button{
     background-image: url("content_back.jpeg");
     width: 98.5vw;
     height: 800px;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     margin-top: 10px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-auto-rows: 350px;
     column-gap: 20px;
     overflow-y: auto;
-    row-gap: 50px;
+    row-gap: 60px;
     
     
 
