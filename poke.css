@@ -5,17 +5,18 @@ body{
 
 header{
     background-color: blue;
-    width: 98.5vw;
+    width: 100%;
     height: 300px;
     position: relative;
     z-index: 1;
 }
 
 .logo{
-    width: 300px;
+    width: min(300px,80%);
     height: 200px;
     margin: 0 auto;
 }
+
 .logo img{
     width: 100%;
     height: 100%;
@@ -57,8 +58,9 @@ header img{
 
 main .info{
 
-    width: 97.5vw;
-    height: 280px;
+    width: 100%;
+    min-height: 280px;
+    height: auto;
     background-color: aqua;
     font-size: 1.2rem;
     text-indent: 10px;
@@ -87,7 +89,7 @@ nav button{
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
-    width: 98.5vw;
+    width: 100%;
     height: 800px;
     /* background-color: aquamarine; */
     margin-top: 10px;
@@ -113,18 +115,22 @@ nav button{
 
     main .info{
 
-        width: 97.5vw;
-        height: 280px;
+        width: 100%;
+        height: auto;
         background-color: aqua;
-        font-size: 1.2rem;
+        font-size: 1rem;
         text-indent: 10px;
         padding: 10px;
     }
     
     nav{
+        flex-wrap: wrap;
         display: flex;
         gap: 5px;
     
+    }
+    nav button{
+        flex: 1 1 100%;
     }
 
 
@@ -133,9 +139,9 @@ nav button{
 
 .content{
     background-image: url("content_back.jpeg");
-    width: 98.5vw;
+    width: 100%;
     height: 800px;
-    /* background-color: aquamarine; */
+    background-color: aquamarine;
     margin-top: 10px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
